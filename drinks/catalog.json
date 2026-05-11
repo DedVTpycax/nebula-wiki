@@ -1,1 +1,197 @@
-цвцв
+{
+  "title": "Каталог напитков NEBULA",
+  "categories": [
+    {
+      "slug": "classic",
+      "title": "Классика",
+      "description": "Пиво, сидры, медовуха, вина и креплёные напитки.",
+      "count": 20
+    },
+    {
+      "slug": "strong",
+      "title": "Крепкое",
+      "description": "Дистилляты, ликёры, настойки и сильный алкоголь.",
+      "count": 24
+    },
+    {
+      "slug": "cocktails",
+      "title": "Коктейли",
+      "description": "Барная классика и узнаваемые мировые коктейли.",
+      "count": 25
+    },
+    {
+      "slug": "cis-memes",
+      "title": "СНГ и мемы",
+      "description": "Понятные русскоязычной аудитории напитки и локальные приколы.",
+      "count": 15
+    },
+    {
+      "slug": "minecraft-custom",
+      "title": "Minecraft кастом",
+      "description": "Авторские напитки, вдохновлённые предметами и механиками Minecraft.",
+      "count": 42
+    }
+  ],
+  "drinks": [
+    {
+      "slug": "pshenichnoe-pivo",
+      "name": "Пшеничное пиво",
+      "category": "classic",
+      "type": "Пиво",
+      "ingredients": ["Wheat/8", "Sugar/1"],
+      "cookingTime": "6 мин",
+      "distillation": "Нет",
+      "barrel": "Дуб",
+      "age": "2",
+      "difficulty": 3,
+      "alcohol": 5,
+      "color": "GOLD",
+      "effects": ["SPEED I 60с"],
+      "role": "Простое барное пиво для посиделок"
+    },
+    {
+      "slug": "staut",
+      "name": "Стаут",
+      "category": "classic",
+      "type": "Пиво",
+      "ingredients": ["Wheat/7", "Cocoa_Beans/3", "Sugar/1"],
+      "cookingTime": "8 мин",
+      "distillation": "Нет",
+      "barrel": "Тёмный дуб",
+      "age": "4",
+      "difficulty": 4,
+      "alcohol": 7,
+      "color": "BLACK",
+      "effects": ["DAMAGE_RESISTANCE I 45с", "SLOWNESS I 10с"],
+      "role": "Плотный тёмный напиток для таверн"
+    },
+    {
+      "slug": "medovuha",
+      "name": "Медовуха",
+      "category": "classic",
+      "type": "Мёд",
+      "ingredients": ["Honey_Bottle/3", "Sugar_Cane/4"],
+      "cookingTime": "5 мин",
+      "distillation": "Нет",
+      "barrel": "Дуб",
+      "age": "4",
+      "difficulty": 3,
+      "alcohol": 9,
+      "color": "GOLD",
+      "effects": ["REGENERATION I 25с"],
+      "role": "Базовый узнаваемый медовый напиток"
+    },
+    {
+      "slug": "krasnoe-vino",
+      "name": "Красное вино",
+      "category": "classic",
+      "type": "Вино",
+      "ingredients": ["Sweet_Berries/12", "Sugar/2"],
+      "cookingTime": "8 мин",
+      "distillation": "Нет",
+      "barrel": "Дуб",
+      "age": "6",
+      "difficulty": 5,
+      "alcohol": 10,
+      "color": "DARK_RED",
+      "effects": ["LUCK I 90с"],
+      "role": "Универсальное столовое вино"
+    },
+    {
+      "slug": "vodka",
+      "name": "Водка",
+      "category": "strong",
+      "type": "Дистиллят",
+      "ingredients": ["Potato/10", "Wheat/2"],
+      "cookingTime": "14 мин",
+      "distillation": "3 x 40с",
+      "barrel": "Нет",
+      "age": "0",
+      "difficulty": 5,
+      "alcohol": 22,
+      "color": "WHITE",
+      "effects": ["WEAKNESS I 10с", "CONFUSION I 7с"],
+      "role": "Реальная классика"
+    },
+    {
+      "slug": "whiskey",
+      "name": "Виски",
+      "category": "strong",
+      "type": "Дистиллят",
+      "ingredients": ["Wheat/12", "Sugar/2"],
+      "cookingTime": "12 мин",
+      "distillation": "2 x 50с",
+      "barrel": "Дуб",
+      "age": "12",
+      "difficulty": 7,
+      "alcohol": 28,
+      "color": "ORANGE",
+      "effects": ["DAMAGE_RESISTANCE I 50с", "SLOWNESS I 8с"],
+      "role": "Классический выдержанный напиток"
+    },
+    {
+      "slug": "mohito",
+      "name": "Мохито",
+      "category": "cocktails",
+      "type": "Коктейль",
+      "ingredients": ["Sugar_Cane/5", "Lime_Dye/1", "Fern/1", "Ice/2"],
+      "cookingTime": "3 мин",
+      "distillation": "Нет",
+      "barrel": "Нет",
+      "age": "0",
+      "difficulty": 4,
+      "alcohol": 8,
+      "color": "LIME",
+      "effects": ["JUMP I 45с", "SPEED I 30с"],
+      "role": "Узнаваемый свежий коктейль"
+    },
+    {
+      "slug": "long-island",
+      "name": "Лонг Айленд",
+      "category": "cocktails",
+      "type": "Коктейль",
+      "ingredients": ["Wheat/4", "Potato/4", "Sugar_Cane/4", "Cocoa_Beans/1", "Sugar/2"],
+      "cookingTime": "6 мин",
+      "distillation": "2 x 35с",
+      "barrel": "Нет",
+      "age": "0",
+      "difficulty": 8,
+      "alcohol": 28,
+      "color": "BROWN",
+      "effects": ["SPEED I 35с", "CONFUSION II 10с", "WEAKNESS I 8с"],
+      "role": "Опасный барный микс"
+    },
+    {
+      "slug": "ersh",
+      "name": "Ёрш",
+      "category": "cis-memes",
+      "type": "Смесь",
+      "ingredients": ["Wheat/6", "Potato/4", "Sugar/1"],
+      "cookingTime": "5 мин",
+      "distillation": "1 x 30с",
+      "barrel": "Нет",
+      "age": "0",
+      "difficulty": 7,
+      "alcohol": 21,
+      "color": "YELLOW",
+      "effects": ["CONFUSION II 12с", "WEAKNESS I 10с"],
+      "role": "Пиво + водка, мемная опасность"
+    },
+    {
+      "slug": "almaznaya-rosa",
+      "name": "Алмазная роса",
+      "category": "minecraft-custom",
+      "type": "Премиум",
+      "ingredients": ["Diamond/1", "Glow_Berries/5", "Sugar/3"],
+      "cookingTime": "5 мин",
+      "distillation": "1 x 30с",
+      "barrel": "Берёза",
+      "age": "2",
+      "difficulty": 9,
+      "alcohol": 12,
+      "color": "AQUA",
+      "effects": ["REGENERATION I 35с", "LUCK II 45с"],
+      "role": "Дорогой коллекционный напиток"
+    }
+  ]
+}
