@@ -86,7 +86,7 @@
 
 ### Схема крафта
 
-![Слабительное](https://raw.githubusercontent.com/DedVTpycax/nebula-wiki/main/images/rp/slabitelnoe.png)
+![Слабительное](https://github.com/DedVTpycax/nebula-wiki/blob/main/main/images/rp/slabitelnoe.png)
 
 
 ---
