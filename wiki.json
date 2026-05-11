@@ -1,0 +1,30 @@
+{
+  "title": "NEBULA Wiki",
+  "articles": [
+    {
+      "slug": "rp-commands",
+      "title": "RP-команды",
+      "file": "articles/rp-commands.md"
+    },
+    {
+      "slug": "body-mechanics",
+      "title": "Телесные механики",
+      "file": "articles/body-mechanics.md"
+    },
+    {
+      "slug": "hookah",
+      "title": "Кальян",
+      "file": "articles/hookah.md"
+    },
+    {
+      "slug": "drinks",
+      "title": "Напитки",
+      "file": "articles/drinks.md"
+    },
+    {
+      "slug": "world-map",
+      "title": "Карта мира",
+      "file": "articles/world-map.md"
+    }
+  ]
+}
