@@ -34,84 +34,3162 @@
   ],
   "drinks": [
     {
-      "slug": "pshenichnoe-pivo",
+      "catalogNumber": 1,
+      "slug": "wheat_beer",
       "name": "Пшеничное пиво",
       "category": "classic",
-      "type": "Пиво",
-      "ingredients": ["Wheat/8", "Sugar/1"],
-      "cookingTime": "6 мин",
-      "distillation": "Нет",
-      "barrel": "Дуб",
-      "age": "2",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×8",
+        "Сахар ×1"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "2 лет",
       "difficulty": 3,
       "alcohol": 5,
-      "color": "GOLD",
-      "effects": ["SPEED I 60с"],
-      "role": "Простое барное пиво для посиделок"
+      "color": "HEX #FFD700",
+      "effects": [
+        "Скорость I — 60с"
+      ],
+      "role": null
     },
     {
-      "slug": "staut",
+      "catalogNumber": 2,
+      "slug": "stout",
       "name": "Стаут",
       "category": "classic",
-      "type": "Пиво",
-      "ingredients": ["Wheat/7", "Cocoa_Beans/3", "Sugar/1"],
-      "cookingTime": "8 мин",
-      "distillation": "Нет",
-      "barrel": "Тёмный дуб",
-      "age": "4",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×7",
+        "Какао-бобы ×3",
+        "Сахар ×1"
+      ],
+      "cookingTime": "8 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "4 лет",
       "difficulty": 4,
       "alcohol": 7,
-      "color": "BLACK",
-      "effects": ["DAMAGE_RESISTANCE I 45с", "SLOWNESS I 10с"],
-      "role": "Плотный тёмный напиток для таверн"
+      "color": "Чёрный",
+      "effects": [
+        "Сопротивление I — 45с",
+        "Замедление I — 10с"
+      ],
+      "role": null
     },
     {
-      "slug": "medovuha",
+      "catalogNumber": 3,
+      "slug": "porter",
+      "name": "Портер",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×6",
+        "Какао-бобы ×2",
+        "Сладкие ягоды ×2"
+      ],
+      "cookingTime": "7 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "3 лет",
+      "difficulty": 4,
+      "alcohol": 6,
+      "color": "Тёмно-красный",
+      "effects": [
+        "Насыщение I — 35с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 4,
+      "slug": "ipa",
+      "name": "IPA",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×7",
+        "Папоротник ×2",
+        "Сахар ×1"
+      ],
+      "cookingTime": "7 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "2 лет",
+      "difficulty": 5,
+      "alcohol": 6,
+      "color": "Жёлтый",
+      "effects": [
+        "Спешка I — 45с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 5,
+      "slug": "lager",
+      "name": "Лагер",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×6",
+        "Лёд ×1",
+        "Сахар ×1"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Берёзовая бочка",
+      "age": "1 лет",
+      "difficulty": 3,
+      "alcohol": 4,
+      "color": "Жёлтый",
+      "effects": [],
+      "role": null
+    },
+    {
+      "catalogNumber": 6,
+      "slug": "bock",
+      "name": "Бок",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×9",
+        "Пчелиные соты ×1"
+      ],
+      "cookingTime": "9 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "5 лет",
+      "difficulty": 5,
+      "alcohol": 8,
+      "color": "Оранжевый",
+      "effects": [
+        "Сила I — 30с",
+        "Замедление I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 7,
+      "slug": "sake",
+      "name": "Саке",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×5",
+        "Сахар ×2",
+        "Ламинария ×1"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 11,
+      "color": "Белый",
+      "effects": [
+        "Скорость I — 40с",
+        "Тошнота I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 8,
+      "slug": "cider",
+      "name": "Сидр",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Яблоко ×12",
+        "Сахар ×2"
+      ],
+      "cookingTime": "7 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "3 лет",
+      "difficulty": 4,
+      "alcohol": 7,
+      "color": "Оранжевый",
+      "effects": [
+        "Скорость I — 50с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 9,
+      "slug": "perry",
+      "name": "Грушевый перри",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Яблоко ×8",
+        "Ломтик арбуза ×4",
+        "Сахар ×1"
+      ],
+      "cookingTime": "7 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Берёзовая бочка",
+      "age": "2 лет",
+      "difficulty": 4,
+      "alcohol": 6,
+      "color": "Лаймовый",
+      "effects": [
+        "Прыгучесть I — 45с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 10,
+      "slug": "mead",
       "name": "Медовуха",
       "category": "classic",
-      "type": "Мёд",
-      "ingredients": ["Honey_Bottle/3", "Sugar_Cane/4"],
-      "cookingTime": "5 мин",
-      "distillation": "Нет",
-      "barrel": "Дуб",
-      "age": "4",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Бутылочка мёда ×3",
+        "Сахарный тростник ×4"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "4 лет",
       "difficulty": 3,
       "alcohol": 9,
-      "color": "GOLD",
-      "effects": ["REGENERATION I 25с"],
-      "role": "Базовый узнаваемый медовый напиток"
+      "color": "HEX #FFD700",
+      "effects": [
+        "Регенерация I — 25с"
+      ],
+      "role": null
     },
     {
-      "slug": "krasnoe-vino",
+      "catalogNumber": 11,
+      "slug": "red_wine",
       "name": "Красное вино",
       "category": "classic",
-      "type": "Вино",
-      "ingredients": ["Sweet_Berries/12", "Sugar/2"],
-      "cookingTime": "8 мин",
-      "distillation": "Нет",
-      "barrel": "Дуб",
-      "age": "6",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×12",
+        "Сахар ×2"
+      ],
+      "cookingTime": "8 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "6 лет",
       "difficulty": 5,
       "alcohol": 10,
-      "color": "DARK_RED",
-      "effects": ["LUCK I 90с"],
-      "role": "Универсальное столовое вино"
+      "color": "Тёмно-красный",
+      "effects": [
+        "Удача I — 90с"
+      ],
+      "role": null
     },
     {
+      "catalogNumber": 12,
+      "slug": "white_wine",
+      "name": "Белое вино",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Светящиеся ягоды ×8",
+        "Сахар ×2",
+        "Пшеница ×2"
+      ],
+      "cookingTime": "7 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Берёзовая бочка",
+      "age": "5 лет",
+      "difficulty": 5,
+      "alcohol": 9,
+      "color": "Жёлтый",
+      "effects": [
+        "Ночное зрение I — 60с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 13,
+      "slug": "rose_wine",
+      "name": "Розовое вино",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×7",
+        "Светящиеся ягоды ×4",
+        "Сахар ×2"
+      ],
+      "cookingTime": "7 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Вишнёвая бочка",
+      "age": "4 лет",
+      "difficulty": 4,
+      "alcohol": 8,
+      "color": "Розовый",
+      "effects": [
+        "Скорость I — 50с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 14,
+      "slug": "sparkling_wine",
+      "name": "Игристое вино",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Светящиеся ягоды ×8",
+        "Сахар ×3",
+        "Пчелиные соты ×1"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 25с",
+      "barrel": "Берёзовая бочка",
+      "age": "2 лет",
+      "difficulty": 6,
+      "alcohol": 11,
+      "color": "Жёлтый",
+      "effects": [
+        "Прыгучесть I — 60с",
+        "Свечение — 20с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 15,
+      "slug": "mulled_wine",
+      "name": "Глинтвейн",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×8",
+        "Сахар ×2",
+        "Какао-бобы ×1",
+        "Яблоко ×2"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "1 лет",
+      "difficulty": 4,
+      "alcohol": 7,
+      "color": "Тёмно-красный",
+      "effects": [
+        "Огнестойкость I — 60с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 16,
+      "slug": "sangria",
+      "name": "Сангрия",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×6",
+        "Яблоко ×3",
+        "Ломтик арбуза ×3",
+        "Сахар ×2"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Бочка из акации",
+      "age": "1 лет",
+      "difficulty": 4,
+      "alcohol": 7,
+      "color": "Красный",
+      "effects": [
+        "Скорость I — 45с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 17,
+      "slug": "vermouth",
+      "name": "Вермут",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×8",
+        "Папоротник ×2",
+        "Сахар ×2"
+      ],
+      "cookingTime": "7 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Дубовая бочка",
+      "age": "4 лет",
+      "difficulty": 6,
+      "alcohol": 14,
+      "color": "Красный",
+      "effects": [
+        "Удача I — 70с",
+        "Тошнота I — 6с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 18,
+      "slug": "port_wine",
+      "name": "Портвейн",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×10",
+        "Сахар ×3",
+        "Пшеница ×2"
+      ],
+      "cookingTime": "10 минут",
+      "distillation": "1 × 40с",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "8 лет",
+      "difficulty": 6,
+      "alcohol": 18,
+      "color": "Тёмно-красный",
+      "effects": [
+        "Сопротивление I — 50с",
+        "Замедление I — 10с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 19,
+      "slug": "sherry",
+      "name": "Херес",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Светящиеся ягоды ×6",
+        "Пшеница ×5",
+        "Сахар ×2"
+      ],
+      "cookingTime": "9 минут",
+      "distillation": "1 × 40с",
+      "barrel": "Дубовая бочка",
+      "age": "8 лет",
+      "difficulty": 6,
+      "alcohol": 16,
+      "color": "Оранжевый",
+      "effects": [
+        "Насыщение I — 50с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 20,
+      "slug": "kvass",
+      "name": "Квас",
+      "category": "classic",
+      "categoryTitle": "Классика",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×5",
+        "Сахар ×1",
+        "Bread ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "1 лет",
+      "difficulty": 2,
+      "alcohol": 2,
+      "color": "Коричневый",
+      "effects": [
+        "Насыщение I — 30с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 21,
       "slug": "vodka",
       "name": "Водка",
       "category": "strong",
-      "type": "Дистиллят",
-      "ingredients": ["Potato/10", "Wheat/2"],
-      "cookingTime": "14 мин",
-      "distillation": "3 x 40с",
-      "barrel": "Нет",
-      "age": "0",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Картофель ×10",
+        "Пшеница ×2"
+      ],
+      "cookingTime": "14 минут",
+      "distillation": "3 × 40с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
       "difficulty": 5,
       "alcohol": 22,
-      "color": "WHITE",
-      "effects": ["WEAKNESS I 10с", "CONFUSION I 7с"],
-      "role": "Реальная классика"
+      "color": "Белый",
+      "effects": [
+        "Слабость I — 10с",
+        "Тошнота I — 7с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 22,
+      "slug": "pepper_vodka",
+      "name": "Перцовка",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Картофель ×8",
+        "Красный краситель ×1",
+        "Сахар ×1",
+        "Свёкла ×2"
+      ],
+      "cookingTime": "12 минут",
+      "distillation": "2 × 40с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 6,
+      "alcohol": 24,
+      "color": "Красный",
+      "effects": [
+        "Сила I — 35с",
+        "Отравление I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 23,
+      "slug": "hrenovukha",
+      "name": "Хреновуха",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Картофель ×8",
+        "Сахар ×1",
+        "Белый краситель ×1",
+        "Семена пшеницы ×2"
+      ],
+      "cookingTime": "12 минут",
+      "distillation": "2 × 40с",
+      "barrel": "Дубовая бочка",
+      "age": "1 лет",
+      "difficulty": 5,
+      "alcohol": 20,
+      "color": "Жёлтый",
+      "effects": [
+        "Сопротивление I — 45с",
+        "Тошнота I — 6с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 24,
+      "slug": "klukovka",
+      "name": "Клюковка",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×8",
+        "Картофель ×6",
+        "Сахар ×2"
+      ],
+      "cookingTime": "10 минут",
+      "distillation": "2 × 35с",
+      "barrel": "Вишнёвая бочка",
+      "age": "2 лет",
+      "difficulty": 5,
+      "alcohol": 18,
+      "color": "Красный",
+      "effects": [
+        "Регенерация I — 20с",
+        "Скорость I — 30с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 25,
+      "slug": "gin",
+      "name": "Джин",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×8",
+        "Папоротник ×2",
+        "Сладкие ягоды ×2"
+      ],
+      "cookingTime": "11 минут",
+      "distillation": "3 × 40с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 6,
+      "alcohol": 23,
+      "color": "Белый",
+      "effects": [
+        "Ночное зрение I — 45с",
+        "Тошнота I — 6с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 26,
+      "slug": "white_rum",
+      "name": "Белый ром",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Сахарный тростник ×16",
+        "Сахар ×2"
+      ],
+      "cookingTime": "8 минут",
+      "distillation": "2 × 35с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 26,
+      "color": "Белый",
+      "effects": [
+        "Скорость I — 45с",
+        "Слабость I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 27,
+      "slug": "dark_rum",
+      "name": "Тёмный ром",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Сахарный тростник ×18",
+        "Какао-бобы ×2",
+        "Сахар ×2"
+      ],
+      "cookingTime": "9 минут",
+      "distillation": "2 × 35с",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "6 лет",
+      "difficulty": 6,
+      "alcohol": 30,
+      "color": "Тёмно-красный",
+      "effects": [
+        "Сопротивление I — 45с",
+        "Тошнота I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 28,
+      "slug": "tequila",
+      "name": "Текила",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Кактус ×10",
+        "Сахар ×2"
+      ],
+      "cookingTime": "10 минут",
+      "distillation": "2 × 35с",
+      "barrel": "Бочка из акации",
+      "age": "3 лет",
+      "difficulty": 6,
+      "alcohol": 25,
+      "color": "Жёлтый",
+      "effects": [
+        "Скорость II — 25с",
+        "Тошнота I — 6с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 29,
+      "slug": "mezcal",
+      "name": "Мескаль",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Кактус ×12",
+        "Древесный уголь ×1",
+        "Сахар ×2"
+      ],
+      "cookingTime": "12 минут",
+      "distillation": "2 × 40с",
+      "barrel": "Бочка из акации",
+      "age": "5 лет",
+      "difficulty": 7,
+      "alcohol": 28,
+      "color": "Оранжевый",
+      "effects": [
+        "Огнестойкость I — 45с",
+        "Тошнота I — 10с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 30,
+      "slug": "whiskey",
+      "name": "Виски",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×12",
+        "Сахар ×2"
+      ],
+      "cookingTime": "12 минут",
+      "distillation": "2 × 50с",
+      "barrel": "Дубовая бочка",
+      "age": "12 лет",
+      "difficulty": 7,
+      "alcohol": 28,
+      "color": "Оранжевый",
+      "effects": [
+        "Сопротивление I — 50с",
+        "Замедление I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 31,
+      "slug": "bourbon",
+      "name": "Бурбон",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×8",
+        "Тыквенные семечки ×4",
+        "Сахар ×2"
+      ],
+      "cookingTime": "12 минут",
+      "distillation": "2 × 50с",
+      "barrel": "Дубовая бочка",
+      "age": "10 лет",
+      "difficulty": 7,
+      "alcohol": 27,
+      "color": "Оранжевый",
+      "effects": [
+        "Сила I — 35с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 32,
+      "slug": "scotch",
+      "name": "Скотч",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×10",
+        "Древесный уголь ×1",
+        "Сахар ×1"
+      ],
+      "cookingTime": "14 минут",
+      "distillation": "2 × 55с",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "16 лет",
+      "difficulty": 8,
+      "alcohol": 30,
+      "color": "Коричневый",
+      "effects": [
+        "Сопротивление I — 60с",
+        "Замедление I — 12с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 33,
+      "slug": "brandy",
+      "name": "Бренди",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×10",
+        "Сахар ×2",
+        "Яблоко ×2"
+      ],
+      "cookingTime": "12 минут",
+      "distillation": "2 × 45с",
+      "barrel": "Дубовая бочка",
+      "age": "10 лет",
+      "difficulty": 7,
+      "alcohol": 26,
+      "color": "Оранжевый",
+      "effects": [
+        "Регенерация I — 20с",
+        "Тошнота I — 6с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 34,
+      "slug": "cognac",
+      "name": "Коньяк",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×12",
+        "Сахар ×2",
+        "Пчелиные соты ×1"
+      ],
+      "cookingTime": "14 минут",
+      "distillation": "2 × 50с",
+      "barrel": "Дубовая бочка",
+      "age": "18 лет",
+      "difficulty": 8,
+      "alcohol": 28,
+      "color": "Коричневый",
+      "effects": [
+        "Удача I — 100с",
+        "Замедление I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 35,
+      "slug": "calvados",
+      "name": "Кальвадос",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Яблоко ×14",
+        "Сахар ×2"
+      ],
+      "cookingTime": "13 минут",
+      "distillation": "2 × 45с",
+      "barrel": "Дубовая бочка",
+      "age": "8 лет",
+      "difficulty": 6,
+      "alcohol": 24,
+      "color": "Оранжевый",
+      "effects": [
+        "Скорость I — 50с",
+        "Тошнота I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 36,
+      "slug": "absinthe",
+      "name": "Абсент",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×8",
+        "Папоротник ×3",
+        "Сахар ×1",
+        "Зелёный краситель ×1"
+      ],
+      "cookingTime": "13 минут",
+      "distillation": "3 × 45с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 8,
+      "alcohol": 35,
+      "color": "Лаймовый",
+      "effects": [
+        "Ночное зрение II — 70с",
+        "Тошнота II — 12с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 37,
+      "slug": "sambuca",
+      "name": "Самбука",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Сахар ×5",
+        "Пшеница ×6",
+        "Белый краситель ×1"
+      ],
+      "cookingTime": "10 минут",
+      "distillation": "2 × 40с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 6,
+      "alcohol": 24,
+      "color": "Белый",
+      "effects": [
+        "Свечение — 30с",
+        "Тошнота I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 38,
+      "slug": "becherovka",
+      "name": "Бехеровка",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×7",
+        "Папоротник ×2",
+        "Сахар ×3",
+        "Бутылочка мёда ×1"
+      ],
+      "cookingTime": "9 минут",
+      "distillation": "1 × 40с",
+      "barrel": "Дубовая бочка",
+      "age": "4 лет",
+      "difficulty": 6,
+      "alcohol": 19,
+      "color": "Жёлтый",
+      "effects": [
+        "Насыщение I — 45с",
+        "Удача I — 45с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 39,
+      "slug": "jagermeister",
+      "name": "Егермейстер",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×8",
+        "Папоротник ×3",
+        "Какао-бобы ×1",
+        "Сахар ×2"
+      ],
+      "cookingTime": "10 минут",
+      "distillation": "2 × 40с",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "5 лет",
+      "difficulty": 7,
+      "alcohol": 25,
+      "color": "HEX #006400",
+      "effects": [
+        "Ночное зрение I — 45с",
+        "Замедление I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 40,
+      "slug": "limoncello",
+      "name": "Лимончелло",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Сахар ×5",
+        "Жёлтый краситель ×2",
+        "Бутылочка мёда ×1",
+        "Картофель ×4"
+      ],
+      "cookingTime": "8 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 4,
+      "alcohol": 16,
+      "color": "Жёлтый",
+      "effects": [
+        "Скорость I — 40с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 41,
+      "slug": "amaretto",
+      "name": "Амаретто",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Печенье ×3",
+        "Сахар ×4",
+        "Пшеница ×4"
+      ],
+      "cookingTime": "9 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Дубовая бочка",
+      "age": "3 лет",
+      "difficulty": 5,
+      "alcohol": 18,
+      "color": "Коричневый",
+      "effects": [
+        "Насыщение I — 40с",
+        "Регенерация I — 15с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 42,
+      "slug": "coffee_liqueur",
+      "name": "Кофейный ликёр",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Какао-бобы ×5",
+        "Сахар ×4",
+        "Пшеница ×5"
+      ],
+      "cookingTime": "9 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "3 лет",
+      "difficulty": 5,
+      "alcohol": 17,
+      "color": "Чёрный",
+      "effects": [
+        "Спешка I — 50с",
+        "Замедление I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 43,
+      "slug": "mint_liqueur",
+      "name": "Мятный ликёр",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Зелёный краситель ×1",
+        "Сахар ×5",
+        "Папоротник ×1",
+        "Пшеница ×4"
+      ],
+      "cookingTime": "8 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Берёзовая бочка",
+      "age": "1 лет",
+      "difficulty": 4,
+      "alcohol": 16,
+      "color": "Лаймовый",
+      "effects": [
+        "Прыгучесть I — 45с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 44,
+      "slug": "nut_liqueur",
+      "name": "Ореховый ликёр",
+      "category": "strong",
+      "categoryTitle": "Крепкое",
+      "type": null,
+      "ingredients": [
+        "Какао-бобы ×2",
+        "Тыквенные семечки ×5",
+        "Сахар ×3",
+        "Пшеница ×4"
+      ],
+      "cookingTime": "10 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Дубовая бочка",
+      "age": "4 лет",
+      "difficulty": 5,
+      "alcohol": 18,
+      "color": "Коричневый",
+      "effects": [
+        "Сопротивление I — 35с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 45,
+      "slug": "mojito",
+      "name": "Мохито",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Сахарный тростник ×5",
+        "Лаймовый краситель ×1",
+        "Папоротник ×1",
+        "Лёд ×2"
+      ],
+      "cookingTime": "3 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 4,
+      "alcohol": 8,
+      "color": "Лаймовый",
+      "effects": [
+        "Прыгучесть I — 45с",
+        "Скорость I — 30с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 46,
+      "slug": "margarita",
+      "name": "Маргарита",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Кактус ×5",
+        "Сахар ×2",
+        "Жёлтый краситель ×1",
+        "Лёд ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 14,
+      "color": "Жёлтый",
+      "effects": [
+        "Скорость II — 20с",
+        "Тошнота I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 47,
+      "slug": "pina_colada",
+      "name": "Пина Колада",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Сахарный тростник ×5",
+        "Ведро молока ×1",
+        "Ломтик арбуза ×3",
+        "Сахар ×2"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 4,
+      "alcohol": 10,
+      "color": "Белый",
+      "effects": [
+        "Подводное дыхание I — 60с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 48,
+      "slug": "cuba_libre",
+      "name": "Куба Либре",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Сахарный тростник ×7",
+        "Какао-бобы ×1",
+        "Сахар ×2",
+        "Лёд ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 25с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 4,
+      "alcohol": 12,
+      "color": "Коричневый",
+      "effects": [
+        "Скорость I — 40с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 49,
+      "slug": "daiquiri",
+      "name": "Дайкири",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Сахарный тростник ×6",
+        "Сахар ×2",
+        "Жёлтый краситель ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 13,
+      "color": "Жёлтый",
+      "effects": [
+        "Прыгучесть I — 35с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 50,
+      "slug": "negroni",
+      "name": "Негрони",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×5",
+        "Папоротник ×2",
+        "Сахар ×2",
+        "Пшеница ×3"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Дубовая бочка",
+      "age": "2 лет",
+      "difficulty": 7,
+      "alcohol": 20,
+      "color": "Красный",
+      "effects": [
+        "Удача I — 60с",
+        "Тошнота I — 7с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 51,
+      "slug": "old_fashioned",
+      "name": "Олд Фэшн",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×8",
+        "Сахар ×2",
+        "Сладкие ягоды ×1",
+        "Лёд ×1"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Дубовая бочка",
+      "age": "4 лет",
+      "difficulty": 6,
+      "alcohol": 18,
+      "color": "Оранжевый",
+      "effects": [
+        "Сопротивление I — 35с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 52,
+      "slug": "manhattan",
+      "name": "Манхэттен",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×7",
+        "Сладкие ягоды ×4",
+        "Сахар ×1"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Дубовая бочка",
+      "age": "4 лет",
+      "difficulty": 7,
+      "alcohol": 19,
+      "color": "Тёмно-красный",
+      "effects": [
+        "Удача I — 60с",
+        "Замедление I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 53,
+      "slug": "dry_martini",
+      "name": "Мартини Драй",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×5",
+        "Папоротник ×1",
+        "Сахар ×1",
+        "Лёд ×1"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Берёзовая бочка",
+      "age": "1 лет",
+      "difficulty": 6,
+      "alcohol": 16,
+      "color": "Белый",
+      "effects": [
+        "Ночное зрение I — 35с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 54,
+      "slug": "cosmopolitan",
+      "name": "Космополитен",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×5",
+        "Сахар ×2",
+        "Жёлтый краситель ×1",
+        "Лёд ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 13,
+      "color": "Розовый",
+      "effects": [
+        "Скорость I — 45с",
+        "Свечение — 15с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 55,
+      "slug": "long_island",
+      "name": "Лонг Айленд",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×4",
+        "Картофель ×4",
+        "Сахарный тростник ×4",
+        "Какао-бобы ×1",
+        "Сахар ×2"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "2 × 35с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 8,
+      "alcohol": 28,
+      "color": "Коричневый",
+      "effects": [
+        "Скорость I — 35с",
+        "Тошнота II — 10с",
+        "Слабость I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 56,
+      "slug": "b52",
+      "name": "Б-52",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Какао-бобы ×3",
+        "Сахар ×3",
+        "Ведро молока ×1",
+        "Пшеница ×3"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 6,
+      "alcohol": 22,
+      "color": "Коричневый",
+      "effects": [
+        "Огнестойкость I — 35с",
+        "Тошнота I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 57,
+      "slug": "bloody_mary",
+      "name": "Кровавая Мэри",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Свёкла ×6",
+        "Картофель ×4",
+        "Красный краситель ×1",
+        "Сахар ×1"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 12,
+      "color": "Красный",
+      "effects": [
+        "Сопротивление I — 30с",
+        "Отравление I — 4с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 58,
+      "slug": "tequila_sunrise",
+      "name": "Текила Санрайз",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Кактус ×5",
+        "Сладкие ягоды ×3",
+        "Жёлтый краситель ×1",
+        "Сахар ×2"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 13,
+      "color": "Оранжевый",
+      "effects": [
+        "Скорость I — 60с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 59,
+      "slug": "blue_lagoon",
+      "name": "Голубая Лагуна",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Сахарный тростник ×4",
+        "Синий краситель ×1",
+        "Сахар ×2",
+        "Лёд ×2"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 25с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 4,
+      "alcohol": 11,
+      "color": "Синий",
+      "effects": [
+        "Подводное дыхание I — 80с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 60,
+      "slug": "aperol_spritz",
+      "name": "Апероль Шприц",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×4",
+        "Оранжевый краситель ×1",
+        "Сахар ×2",
+        "Светящиеся ягоды ×2"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 4,
+      "alcohol": 9,
+      "color": "Оранжевый",
+      "effects": [
+        "Прыгучесть I — 45с",
+        "Свечение — 20с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 61,
+      "slug": "sidecar",
+      "name": "Сайдкар",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×4",
+        "Жёлтый краситель ×1",
+        "Сахар ×2",
+        "Пшеница ×4"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Дубовая бочка",
+      "age": "3 лет",
+      "difficulty": 6,
+      "alcohol": 17,
+      "color": "Жёлтый",
+      "effects": [
+        "Скорость I — 40с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 62,
+      "slug": "white_russian",
+      "name": "Уайт Рашн",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Какао-бобы ×4",
+        "Ведро молока ×1",
+        "Картофель ×3",
+        "Сахар ×3"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 15,
+      "color": "Белый",
+      "effects": [
+        "Насыщение I — 50с",
+        "Замедление I — 6с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 63,
+      "slug": "black_russian",
+      "name": "Блэк Рашн",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Какао-бобы ×5",
+        "Картофель ×4",
+        "Сахар ×3"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 17,
+      "color": "Чёрный",
+      "effects": [
+        "Спешка I — 45с",
+        "Тошнота I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 64,
+      "slug": "mai_tai",
+      "name": "Май Тай",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Сахарный тростник ×6",
+        "Печенье ×1",
+        "Ломтик арбуза ×2",
+        "Сахар ×2"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Бочка из акации",
+      "age": "1 лет",
+      "difficulty": 5,
+      "alcohol": 14,
+      "color": "Оранжевый",
+      "effects": [
+        "Прыгучесть I — 50с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 65,
+      "slug": "zombie",
+      "name": "Зомби",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Сахарный тростник ×8",
+        "Сладкие ягоды ×3",
+        "Какао-бобы ×1",
+        "Сахар ×2"
+      ],
+      "cookingTime": "7 минут",
+      "distillation": "2 × 35с",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "2 лет",
+      "difficulty": 8,
+      "alcohol": 30,
+      "color": "Тёмно-красный",
+      "effects": [
+        "Тошнота II — 12с",
+        "Сила I — 25с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 66,
+      "slug": "moscow_mule",
+      "name": "Московский мул",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Картофель ×4",
+        "Сахар ×2",
+        "Жёлтый краситель ×1",
+        "Лёд ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 25с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 4,
+      "alcohol": 12,
+      "color": "Жёлтый",
+      "effects": [
+        "Скорость I — 45с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 67,
+      "slug": "clover_club",
+      "name": "Кловер Клаб",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×6",
+        "Яйцо ×1",
+        "Сахар ×2",
+        "Пшеница ×3"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 13,
+      "color": "Розовый",
+      "effects": [
+        "Регенерация I — 18с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 68,
+      "slug": "whiskey_sour",
+      "name": "Виски Сауэр",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×7",
+        "Сахар ×2",
+        "Жёлтый краситель ×1",
+        "Яйцо ×1"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Дубовая бочка",
+      "age": "3 лет",
+      "difficulty": 6,
+      "alcohol": 18,
+      "color": "Жёлтый",
+      "effects": [
+        "Сопротивление I — 35с",
+        "Тошнота I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 69,
+      "slug": "gin_tonic",
+      "name": "Джин-тоник",
+      "category": "cocktails",
+      "categoryTitle": "Коктейли",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×5",
+        "Папоротник ×1",
+        "Сахар ×2",
+        "Лёд ×2"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 4,
+      "alcohol": 11,
+      "color": "Белый",
+      "effects": [
+        "Ночное зрение I — 40с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 70,
+      "slug": "yorsh",
+      "name": "Ёрш",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×6",
+        "Картофель ×4",
+        "Сахар ×1"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 7,
+      "alcohol": 21,
+      "color": "Жёлтый",
+      "effects": [
+        "Тошнота II — 12с",
+        "Слабость I — 10с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 71,
+      "slug": "boyarsky",
+      "name": "Боярский",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Картофель ×5",
+        "Красный краситель ×1",
+        "Сахар ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 25с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 6,
+      "alcohol": 20,
+      "color": "Красный",
+      "effects": [
+        "Сила I — 25с",
+        "Тошнота I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 72,
+      "slug": "screwdriver",
+      "name": "Отвёртка",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Картофель ×4",
+        "Жёлтый краситель ×1",
+        "Сахар ×2",
+        "Лёд ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 25с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 4,
+      "alcohol": 11,
+      "color": "Оранжевый",
+      "effects": [
+        "Скорость I — 40с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 73,
+      "slug": "northern_lights",
+      "name": "Северное сияние",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Светящиеся ягоды ×5",
+        "Картофель ×4",
+        "Сахар ×2"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 14,
+      "color": "HEX #7AD8FF",
+      "effects": [
+        "Свечение — 45с",
+        "Ночное зрение I — 50с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 74,
+      "slug": "baltic_evening",
+      "name": "Балтийский вечер",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×7",
+        "Сладкие ягоды ×2",
+        "Сахар ×1"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "2 лет",
+      "difficulty": 4,
+      "alcohol": 7,
+      "color": "Коричневый",
+      "effects": [
+        "Насыщение I — 30с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 75,
+      "slug": "dacha_nalivka",
+      "name": "Дачная наливка",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Сладкие ягоды ×10",
+        "Яблоко ×3",
+        "Сахар ×3"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Вишнёвая бочка",
+      "age": "4 лет",
+      "difficulty": 4,
+      "alcohol": 9,
+      "color": "Красный",
+      "effects": [
+        "Удача I — 50с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 76,
+      "slug": "kompot_18",
+      "name": "Компот 18+",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Яблоко ×5",
+        "Сладкие ягоды ×5",
+        "Сахар ×3"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Берёзовая бочка",
+      "age": "2 лет",
+      "difficulty": 3,
+      "alcohol": 6,
+      "color": "Розовый",
+      "effects": [
+        "Скорость I — 30с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 77,
+      "slug": "palenka",
+      "name": "Паленка",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Картофель ×6",
+        "Сахар ×1",
+        "Rotten_Flesh ×1"
+      ],
+      "cookingTime": "8 минут",
+      "distillation": "1 × 20с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 8,
+      "alcohol": 32,
+      "color": "GREY",
+      "effects": [
+        "Отравление I — 15с",
+        "Тошнота II — 15с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 78,
+      "slug": "samogon",
+      "name": "Самогон",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Картофель ×8",
+        "Пшеница ×4",
+        "Сахар ×3"
+      ],
+      "cookingTime": "12 минут",
+      "distillation": "3 × 40с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 7,
+      "alcohol": 32,
+      "color": "Белый",
+      "effects": [
+        "Тошнота II — 12с",
+        "Сила I — 25с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 79,
+      "slug": "dedov_nastoy",
+      "name": "Дедов настой",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Бутылочка мёда ×2",
+        "Картофель ×5",
+        "Сладкие ягоды ×3",
+        "Сахар ×1"
+      ],
+      "cookingTime": "10 минут",
+      "distillation": "2 × 35с",
+      "barrel": "Дубовая бочка",
+      "age": "3 лет",
+      "difficulty": 6,
+      "alcohol": 22,
+      "color": "Оранжевый",
+      "effects": [
+        "Регенерация I — 20с",
+        "Тошнота I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 80,
+      "slug": "shashlyk_aperitif",
+      "name": "Шашлычный аперитив",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×6",
+        "Сладкие ягоды ×2",
+        "Древесный уголь ×1",
+        "Сахар ×1"
+      ],
+      "cookingTime": "8 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Бочка из акации",
+      "age": "2 лет",
+      "difficulty": 5,
+      "alcohol": 14,
+      "color": "Коричневый",
+      "effects": [
+        "Насыщение I — 60с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 81,
+      "slug": "podjezd_lemonade",
+      "name": "Подъездный лимонад",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Сахар ×3",
+        "Жёлтый краситель ×1",
+        "Лёд ×1",
+        "Пшеница ×2"
+      ],
+      "cookingTime": "3 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 2,
+      "alcohol": 3,
+      "color": "Жёлтый",
+      "effects": [
+        "Скорость I — 20с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 82,
+      "slug": "festive_toast",
+      "name": "Праздничный тост",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Светящиеся ягоды ×6",
+        "Сахар ×3",
+        "Пчелиные соты ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Берёзовая бочка",
+      "age": "1 лет",
+      "difficulty": 4,
+      "alcohol": 8,
+      "color": "HEX #FFD700",
+      "effects": [
+        "Свечение — 30с",
+        "Удача I — 40с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 83,
+      "slug": "friday_shot",
+      "name": "Пятничный шот",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Картофель ×4",
+        "Сахар ×2",
+        "Какао-бобы ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 25с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 18,
+      "color": "Коричневый",
+      "effects": [
+        "Спешка I — 35с",
+        "Тошнота I — 6с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 84,
+      "slug": "morning_pickle",
+      "name": "Утренний рассол",
+      "category": "cis-memes",
+      "categoryTitle": "СНГ и мемы",
+      "type": null,
+      "ingredients": [
+        "Ламинария ×2",
+        "Ведро воды ×1",
+        "Сахар ×1",
+        "Семена пшеницы ×2"
+      ],
+      "cookingTime": "2 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 2,
+      "alcohol": 0,
+      "color": "Лаймовый",
+      "effects": [
+        "Насыщение I — 20с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 85,
+      "slug": "redstone_shot",
+      "name": "Редстоуновый шот",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Редстоун ×2",
+        "Картофель ×4",
+        "Сахар ×2"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 25с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 6,
+      "alcohol": 19,
+      "color": "Красный",
+      "effects": [
+        "Спешка II — 25с",
+        "Тошнота I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 86,
+      "slug": "emerald_sour",
+      "name": "Изумрудный сауэр",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Изумруд ×1",
+        "Сахар ×2",
+        "Жёлтый краситель ×1",
+        "Пшеница ×4"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 7,
+      "alcohol": 16,
+      "color": "Лаймовый",
+      "effects": [
+        "Герой деревни I — 90с",
+        "Удача I — 60с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 87,
+      "slug": "lapis_chill",
+      "name": "Лазуритовая прохлада",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Лазурит ×2",
+        "Лёд ×2",
+        "Сахар ×2",
+        "Пшеница ×3"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 4,
+      "alcohol": 7,
+      "color": "Синий",
+      "effects": [
+        "Подводное дыхание I — 70с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 88,
+      "slug": "diamond_dew",
+      "name": "Алмазная роса",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Алмаз ×1",
+        "Светящиеся ягоды ×5",
+        "Сахар ×3"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Берёзовая бочка",
+      "age": "2 лет",
+      "difficulty": 9,
+      "alcohol": 12,
+      "color": "HEX #55FFFF",
+      "effects": [
+        "Регенерация I — 35с",
+        "Удача II — 45с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 89,
+      "slug": "coal_stout",
+      "name": "Угольный стаут",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×7",
+        "Древесный уголь ×1",
+        "Какао-бобы ×3"
+      ],
+      "cookingTime": "8 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "4 лет",
+      "difficulty": 5,
+      "alcohol": 8,
+      "color": "Чёрный",
+      "effects": [
+        "Огнестойкость I — 35с",
+        "Замедление I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 90,
+      "slug": "miners_grog",
+      "name": "Шахтёрский грог",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×6",
+        "Сахарный тростник ×5",
+        "Уголь ×1",
+        "Сахар ×2"
+      ],
+      "cookingTime": "7 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Дубовая бочка",
+      "age": "3 лет",
+      "difficulty": 6,
+      "alcohol": 17,
+      "color": "Коричневый",
+      "effects": [
+        "Ночное зрение I — 80с",
+        "Спешка I — 45с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 91,
+      "slug": "slime_fizz",
+      "name": "Слизневая шипучка",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Слизь ×1",
+        "Сахар ×3",
+        "Лаймовый краситель ×1",
+        "Лёд ×1"
+      ],
+      "cookingTime": "3 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 4,
+      "alcohol": 5,
+      "color": "Лаймовый",
+      "effects": [
+        "Прыгучесть II — 45с",
+        "Замедление I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 92,
+      "slug": "carrot_spritz",
+      "name": "Морковный спритц",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Морковь ×6",
+        "Сахар ×2",
+        "Светящиеся ягоды ×2"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Бочка из акации",
+      "age": "1 лет",
+      "difficulty": 3,
+      "alcohol": 5,
+      "color": "Оранжевый",
+      "effects": [
+        "Ночное зрение I — 40с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 93,
+      "slug": "pumpkin_eggnog",
+      "name": "Тыквенный эгг-ног",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Тыква ×3",
+        "Яйцо ×1",
+        "Ведро молока ×1",
+        "Сахар ×2"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "1 лет",
+      "difficulty": 4,
+      "alcohol": 6,
+      "color": "Оранжевый",
+      "effects": [
+        "Насыщение I — 60с",
+        "Замедление I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 94,
+      "slug": "bee_breeze",
+      "name": "Пчелиный бриз",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Бутылочка мёда ×2",
+        "Сахарный тростник ×4",
+        "Жёлтый краситель ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Берёзовая бочка",
+      "age": "1 лет",
+      "difficulty": 3,
+      "alcohol": 6,
+      "color": "Жёлтый",
+      "effects": [
+        "Регенерация I — 18с",
+        "Скорость I — 25с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 95,
+      "slug": "farm_nalivka",
+      "name": "Фермерская наливка",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Свёкла ×5",
+        "Морковь ×4",
+        "Яблоко ×2",
+        "Сахар ×2"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "2 лет",
+      "difficulty": 3,
+      "alcohol": 6,
+      "color": "Красный",
+      "effects": [
+        "Насыщение I — 60с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 96,
+      "slug": "creeper_fizz",
+      "name": "Криперская шипучка",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Порох ×1",
+        "Сахар ×3",
+        "Лаймовый краситель ×1",
+        "Пшеница ×3"
+      ],
+      "cookingTime": "3 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 6,
+      "alcohol": 9,
+      "color": "Лаймовый",
+      "effects": [
+        "Скорость II — 20с",
+        "Тошнота I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 97,
+      "slug": "spider_bitter",
+      "name": "Паучий биттер",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Паучий глаз ×1",
+        "Папоротник ×2",
+        "Сахар ×2",
+        "Пшеница ×4"
+      ],
+      "cookingTime": "7 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "2 лет",
+      "difficulty": 7,
+      "alcohol": 16,
+      "color": "HEX #006400",
+      "effects": [
+        "Отравление I — 5с",
+        "Ночное зрение I — 60с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 98,
+      "slug": "golden_carrot_liqueur",
+      "name": "Золотая морковь",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Золотая морковь ×1",
+        "Сахар ×3",
+        "Пшеница ×4"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Дубовая бочка",
+      "age": "2 лет",
+      "difficulty": 6,
+      "alcohol": 15,
+      "color": "HEX #FFD700",
+      "effects": [
+        "Ночное зрение I — 90с",
+        "Удача I — 40с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 99,
+      "slug": "farm_choir",
+      "name": "Хор фермы",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×3",
+        "Свёкла ×3",
+        "Сахар ×1",
+        "Яблоко ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "1 лет",
+      "difficulty": 2,
+      "alcohol": 4,
+      "color": "Розовый",
+      "effects": [
+        "Насыщение I — 35с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 100,
+      "slug": "ink_martini",
+      "name": "Чернильный мартини",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Чернильный мешок ×1",
+        "Пшеница ×4",
+        "Сахар ×2",
+        "Лёд ×1"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 6,
+      "alcohol": 15,
+      "color": "Чёрный",
+      "effects": [
+        "Невидимость I — 20с",
+        "Слепота I — 4с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 101,
+      "slug": "turquoise_beacon",
+      "name": "Бирюзовый маяк",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Кристаллы призмарина ×2",
+        "Сахар ×2",
+        "Светящиеся ягоды ×3"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Берёзовая бочка",
+      "age": "2 лет",
+      "difficulty": 7,
+      "alcohol": 8,
+      "color": "HEX #55FFFF",
+      "effects": [
+        "Подводное дыхание I — 90с",
+        "Свечение — 30с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 102,
+      "slug": "fisher_braga",
+      "name": "Рыбацкая брага",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Ламинария ×4",
+        "Треска ×1",
+        "Пшеница ×4",
+        "Сахар ×1"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "1 лет",
+      "difficulty": 4,
+      "alcohol": 7,
+      "color": "Зелёный",
+      "effects": [
+        "Подводное дыхание I — 45с",
+        "Голод I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 103,
+      "slug": "snow_punch",
+      "name": "Снежный пунш",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Снежок ×3",
+        "Яблоко ×3",
+        "Сахар ×2",
+        "Светящиеся ягоды ×2"
+      ],
+      "cookingTime": "3 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 3,
+      "alcohol": 5,
+      "color": "Белый",
+      "effects": [
+        "Плавное падение I — 30с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 104,
+      "slug": "watermelon_camp",
+      "name": "Арбузный лагерь",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Ломтик арбуза ×8",
+        "Сахар ×2",
+        "Пшеница ×2"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 2,
+      "alcohol": 4,
+      "color": "Розовый",
+      "effects": [
+        "Скорость I — 25с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 105,
+      "slug": "builder_cocoa_rum",
+      "name": "Какао-ром строителя",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Какао-бобы ×4",
+        "Сахарный тростник ×5",
+        "Сахар ×2"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Дубовая бочка",
+      "age": "2 лет",
+      "difficulty": 5,
+      "alcohol": 14,
+      "color": "Коричневый",
+      "effects": [
+        "Спешка I — 70с",
+        "Замедление I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 106,
+      "slug": "rail_doping",
+      "name": "Рельсовый допинг",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Железный самородок ×2",
+        "Редстоун ×1",
+        "Картофель ×4",
+        "Сахар ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 25с",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 7,
+      "alcohol": 18,
+      "color": "GREY",
+      "effects": [
+        "Скорость II — 30с",
+        "Тошнота I — 8с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 107,
+      "slug": "book_absinthe",
+      "name": "Книжный абсент",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Бумага ×2",
+        "Папоротник ×2",
+        "Зелёный краситель ×1",
+        "Пшеница ×5"
+      ],
+      "cookingTime": "9 минут",
+      "distillation": "2 × 40с",
+      "barrel": "Дубовая бочка",
+      "age": "3 лет",
+      "difficulty": 8,
+      "alcohol": 28,
+      "color": "Лаймовый",
+      "effects": [
+        "Ночное зрение I — 80с",
+        "Тошнота II — 10с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 108,
+      "slug": "smith_bitter",
+      "name": "Кузнечный биттер",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Железный самородок ×3",
+        "Древесный уголь ×1",
+        "Пшеница ×5",
+        "Сахар ×1"
+      ],
+      "cookingTime": "8 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "3 лет",
+      "difficulty": 6,
+      "alcohol": 16,
+      "color": "GREY",
+      "effects": [
+        "Сопротивление I — 60с",
+        "Замедление I — 6с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 109,
+      "slug": "crystal_water_18",
+      "name": "Хрустальная вода 18+",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Аметистовый осколок ×2",
+        "Сахар ×2",
+        "Светящиеся ягоды ×2",
+        "Пшеница ×3"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 5,
+      "alcohol": 7,
+      "color": "HEX #FF77FF",
+      "effects": [
+        "Свечение — 35с",
+        "Удача I — 45с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 110,
+      "slug": "bamboo_highball",
+      "name": "Бамбуковый хайбол",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Бамбук ×5",
+        "Сахарный тростник ×4",
+        "Сахар ×2",
+        "Лёд ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "1 × 25с",
+      "barrel": "Бочка из джунглевых досок",
+      "age": "1 лет",
+      "difficulty": 4,
+      "alcohol": 11,
+      "color": "Зелёный",
+      "effects": [
+        "Прыгучесть I — 50с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 111,
+      "slug": "cherry_blocktail",
+      "name": "Вишнёвый блоктайль",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Листья вишни ×2",
+        "Сладкие ягоды ×5",
+        "Сахар ×2",
+        "Пшеница ×3"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Вишнёвая бочка",
+      "age": "2 лет",
+      "difficulty": 4,
+      "alcohol": 7,
+      "color": "Розовый",
+      "effects": [
+        "Регенерация I — 15с",
+        "Скорость I — 25с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 112,
+      "slug": "mango_mirage",
+      "name": "Манговый мираж",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Ломтик арбуза ×5",
+        "Жёлтый краситель ×1",
+        "Сахар ×2",
+        "Кактус ×2"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Бочка из акации",
+      "age": "1 лет",
+      "difficulty": 4,
+      "alcohol": 8,
+      "color": "Оранжевый",
+      "effects": [
+        "Скорость I — 40с",
+        "Тошнота I — 4с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 113,
+      "slug": "mushroom_cream_liqueur",
+      "name": "Грибной крем-ликёр",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Коричневый гриб ×3",
+        "Ведро молока ×1",
+        "Сахар ×3",
+        "Пшеница ×3"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "2 лет",
+      "difficulty": 5,
+      "alcohol": 13,
+      "color": "Коричневый",
+      "effects": [
+        "Насыщение I — 45с",
+        "Тошнота I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 114,
+      "slug": "firefly_spritz",
+      "name": "Светлячковый спритц",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Светящиеся ягоды ×7",
+        "Сахар ×3",
+        "Пчелиные соты ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Берёзовая бочка",
+      "age": "1 лет",
+      "difficulty": 4,
+      "alcohol": 7,
+      "color": "Жёлтый",
+      "effects": [
+        "Свечение — 50с",
+        "Прыгучесть I — 30с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 115,
+      "slug": "sandy_sour",
+      "name": "Песчаный сауэр",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Кактус ×5",
+        "Сахар ×2",
+        "Песок ×1",
+        "Пшеница ×3"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Бочка из акации",
+      "age": "1 лет",
+      "difficulty": 5,
+      "alcohol": 13,
+      "color": "Жёлтый",
+      "effects": [
+        "Скорость I — 35с",
+        "Голод I — 5с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 116,
+      "slug": "swamp_mule",
+      "name": "Болотный мул",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Ламинария ×3",
+        "Слизь ×1",
+        "Сахар ×2",
+        "Картофель ×3"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Мангровая бочка",
+      "age": "2 лет",
+      "difficulty": 6,
+      "alcohol": 15,
+      "color": "HEX #006400",
+      "effects": [
+        "Прыгучесть I — 45с",
+        "Тошнота I — 6с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 117,
+      "slug": "boiler_braga",
+      "name": "Котельная брага",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Пшеница ×5",
+        "Картофель ×4",
+        "Сахар ×2",
+        "Древесный уголь ×1"
+      ],
+      "cookingTime": "7 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "2 лет",
+      "difficulty": 5,
+      "alcohol": 10,
+      "color": "Коричневый",
+      "effects": [
+        "Спешка I — 45с",
+        "Тошнота I — 6с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 118,
+      "slug": "ocean_breeze",
+      "name": "Океанский бриз",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Осколок призмарина ×1",
+        "Ламинария ×2",
+        "Сахар ×2",
+        "Лёд ×1"
+      ],
+      "cookingTime": "4 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Берёзовая бочка",
+      "age": "1 лет",
+      "difficulty": 5,
+      "alcohol": 6,
+      "color": "Циановый",
+      "effects": [
+        "Подводное дыхание I — 100с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 119,
+      "slug": "dusty_mine",
+      "name": "Пыльная шахта",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Уголь ×1",
+        "Редстоун ×1",
+        "Пшеница ×5",
+        "Сахар ×2"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "1 × 35с",
+      "barrel": "Бочка из тёмного дуба",
+      "age": "3 лет",
+      "difficulty": 7,
+      "alcohol": 20,
+      "color": "HEX #555555",
+      "effects": [
+        "Спешка II — 35с",
+        "Слепота I — 3с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 120,
+      "slug": "green_villager",
+      "name": "Зелёный житель",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Изумруд ×1",
+        "Яблоко ×3",
+        "Сахар ×3",
+        "Пшеница ×3"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Дубовая бочка",
+      "age": "3 лет",
+      "difficulty": 7,
+      "alcohol": 15,
+      "color": "Лаймовый",
+      "effects": [
+        "Герой деревни I — 120с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 121,
+      "slug": "shepherd_cider",
+      "name": "Пастуший сидр",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Яблоко ×10",
+        "Пшеница ×2",
+        "Сахар ×2",
+        "Шерсть ×1"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "2 лет",
+      "difficulty": 3,
+      "alcohol": 5,
+      "color": "Оранжевый",
+      "effects": [
+        "Насыщение I — 40с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 122,
+      "slug": "cartographer_grog",
+      "name": "Картографический грог",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Бумага ×1",
+        "Сахарный тростник ×6",
+        "Яблоко ×2",
+        "Сахар ×2"
+      ],
+      "cookingTime": "6 минут",
+      "distillation": "1 × 30с",
+      "barrel": "Дубовая бочка",
+      "age": "2 лет",
+      "difficulty": 5,
+      "alcohol": 14,
+      "color": "Жёлтый",
+      "effects": [
+        "Скорость I — 45с",
+        "Удача I — 30с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 123,
+      "slug": "lost_beacon",
+      "name": "Потерянный маяк",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Светокаменная пыль ×1",
+        "Кристаллы призмарина ×1",
+        "Сахар ×2",
+        "Пшеница ×3"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Берёзовая бочка",
+      "age": "2 лет",
+      "difficulty": 7,
+      "alcohol": 9,
+      "color": "HEX #55FFFF",
+      "effects": [
+        "Свечение — 60с",
+        "Подводное дыхание I — 60с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 124,
+      "slug": "cave_muscat",
+      "name": "Пещерный мускат",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Светящиеся ягоды ×8",
+        "Сладкие ягоды ×3",
+        "Сахар ×2"
+      ],
+      "cookingTime": "7 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Дубовая бочка",
+      "age": "5 лет",
+      "difficulty": 5,
+      "alcohol": 9,
+      "color": "Фиолетовый",
+      "effects": [
+        "Ночное зрение I — 70с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 125,
+      "slug": "builder_tonic",
+      "name": "Строительный тоник",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Бутылочка мёда ×1",
+        "Пшеница ×3",
+        "Сахар ×1",
+        "Печенье ×1"
+      ],
+      "cookingTime": "3 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Без бочки",
+      "age": "Без выдержки",
+      "difficulty": 2,
+      "alcohol": 3,
+      "color": "HEX #FFD700",
+      "effects": [
+        "Спешка I — 35с"
+      ],
+      "role": null
+    },
+    {
+      "catalogNumber": 126,
+      "slug": "dawn_cider",
+      "name": "Рассветный сидр",
+      "category": "minecraft-custom",
+      "categoryTitle": "Minecraft кастом",
+      "type": null,
+      "ingredients": [
+        "Яблоко ×8",
+        "Светящиеся ягоды ×3",
+        "Сахар ×2"
+      ],
+      "cookingTime": "5 минут",
+      "distillation": "Без дистилляции",
+      "barrel": "Берёзовая бочка",
+      "age": "2 лет",
+      "difficulty": 3,
+      "alcohol": 6,
+      "color": "Оранжевый",
+      "effects": [
+        "Свечение — 25с",
+        "Скорость I — 25с"
+      ],
+      "role": null
     }
   ]
 }
